@@ -13,9 +13,13 @@ Cross-browser testing
 Playwright-Automation/
 =============================
 │── tests/              → All test files
+
 │── playwright.config.js→ Playwright configuration
+
 │── package.json        → Project dependencies
+
 │── README.md           → Project documentation
+
 
 Installation
 =====================
@@ -32,19 +36,26 @@ How to Run Tests
 =========================
 .  Run all tests (headless)
     npx playwright test
+    
 .  Run in headed mode
     npx playwright test --headed
+    
 .  Run a specific test file
     npx playwright test tests/filename.spec.js
+    
 .  Run with HTML report
     npx playwright show-report
 
 Technologies Used
 =======================
 Playwright
+
 JavaScript (Node.js)
+
 VS Code
+
 Git & GitHub
+
 NPM
 
 Purpose of This Project
